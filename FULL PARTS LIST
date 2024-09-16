@@ -1,0 +1,27 @@
+Parts list -
+
+    Hoverboard Motor -
+        Can be found online. Or just buy a hoverboard off marketpace like I did. It doesnt need a powersupply, and only 1 motor needs to be functioning :)
+    STL Files -
+        https://cults3d.com/en/3d-model/game/howerboard-dd-ffb-wheel-enclosure (These files are not of my own creation.)
+        (I used PLA w/ 100% infill. It may not be as strong as other filaments, but the majority of the torque is handled elsewhere.)
+    Controller options - 
+        ODESC V4.2 56V - Amazon - 46$ - https://amazon.com/FLIPSKY-Single-Drive-High-Current-High-Precision-Configuration/dp/B0CB66KQ7R
+        Makerbase MKS XDrive3.6 56V - 53$ - https://www.aliexpress.us/item/3256806142767489.html?gatewayAdapt=glo2usa4itemAdapt
+        (both are great options. I chose to use the ODESC as it was slightly cheaper at the time of purchase, although it is not always available.)
+    Encoder -
+        MT6701 Magnetic Encoder - 6$ - https://www.amazon.com/Magnetic-Induction-Measurement-Precision-Replacement/dp/B0CP784Z2V
+        (its an encoder. You could use the one from the hoverboard, however it is rather large and is conneted directly to the wheel. This may affect the performace and feel of driving)
+    PSU -
+        Chinesium - 20$ https://www.aliexpress.us/item/3256805424231294.html?spm=a2g0o.order_list.order_list_main.37.21ef1802J06UzT&gatewayAdapt=glo2usa4itemAdapt
+        (It'll blow up eventually. But it works)
+
+        Its worth noting you could use a old PSU from a PC, and a custom breakout board. I chose not to do this just for the sake of time. More info can be found here 
+        https://timmaxwell.org/pages/atx-breakout/index.html 
+    Breakout PCB - 
+        https://oshwlab.com/olukelo/ffb-breakout
+        (This PCB Design allows you to run your shaft holder through it, connecting the 2 units. You can also use a generic unit and mount it seperatly in your own design)
+        https://www.amazon.com/Amass-Bullet-Connector-Upgrated-Sheath/dp/B074PN6N4K?th=1
+        (Amass XC connector for power)
+        https://www.aliexpress.us/item/3256806095024964.html?spm=a2g0o.productlist.main.55.766e9BDG9BDGYs&algo_pvid=1edc2424-5b6c-4002-b997-1164b5d4964f&aem_p4p_detail=202408211326082678180469857600009874953&algo_exp_id=1edc2424-5b6c-4002-b997-1164b5d4964f-27&pdp_npi=4%40dis%21PLN%2111.89%2110.43%21%21%2121.49%2118.86%21%40211b80c217242719685152640ebc67%2112000036595037020%21sea%21PL%216049321834%21X&curPageLogUid=K5dKhZiNvTAL&utparam-url=scene%3Asearch%7Cquery_from%3A&search_p4p_id=202408211326082678180469857600009874953_8&gatewayAdapt=pol2usa4itemAdapt
+        (USB C M and F connector (This is not necissary, but makes assembly and dissassembly much easier))
